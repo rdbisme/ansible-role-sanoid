@@ -44,8 +44,8 @@
 
 - name: Add Sanoid timer
   ansible.builtin.copy:
-  src: sanoid.timer
-  dest: "etc/systemd/system/sanoid.timer"
-  mode: u=rw
-  owner: root
-  group: wheel
+    src: sanoid.timer
+    dest: "etc/systemd/system/sanoid.timer"
+    mode: u=rw
+    owner: root
+    group: wheel
