@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer for Sanoid
+
+[Timer]
+OnBootSec=300
+OnUnitActiveSec=1m
+
+[Install]
+WantedBy=multi-user.target
